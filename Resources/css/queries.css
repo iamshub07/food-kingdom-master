@@ -1,0 +1,274 @@
+/*  LAPTOPS & IPADS */
+@media only screen and (max-width:1200px){
+    
+    html{
+        font-size: 20px;
+    }
+    .row{
+        width: 95%;
+        padding: 0 2%;
+    }
+    .first-head-but {
+        width: 95%;
+        padding: 0 2%;
+    }
+    .logo{
+        height: 95px;
+        width: auto;
+        margin-top: 19px;
+    }
+    .main-nav{
+        margin-top: 52.25px;
+    }
+    .main-nav li{
+        margin-left: 33.25;
+    }
+    section{
+        padding: 60px 0;
+    }
+    footer {
+        padding: 9px 9px 9px 9px;
+    }
+    
+}
+
+/* TABLETS */
+@media only screen and (max-width:1023px){
+    
+    html{
+        font-size: 18px;
+    }
+    .row{
+        width: 97.5%;
+        padding: 0 1.5%;
+    }
+    .first-head-but {
+        width: 97.5%;
+        padding: 0 1.5%;
+    }
+    .logo{
+        height: 85px;
+        width: auto;
+        margin-top: 17px;
+    }
+    .main-nav{
+        margin-top: 46.75px;
+    }
+    .main-nav li{
+        margin-left: 29.75px;
+    }
+    section{
+        padding: 40px 0;
+    }
+    footer {
+        padding: 8px 8px 8px 8px;
+    }
+    .meal-4 li{
+        width: 50%;
+    }
+    .meal{
+        padding: 0 20px;
+    }
+    .box1 {
+        margin-top: 60px;
+    }
+    .box2 {
+        margin-top: 60px;
+    }
+    
+}
+
+/* SMALL TABS */
+@media only screen and (max-width:767px){
+    html{
+        font-size: 17px;
+    }
+    .row{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .first-head-but {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .logo{
+        height: 70px;
+        width: auto;
+        margin-top: 14px;
+    }
+     .main-nav {
+         display: none;
+    }
+
+    /* To make mobile navigation varticle with certain effects */ 
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+        
+    .sticky .main-nav {
+         margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { 
+         padding: 10px 0;
+    }
+
+    .sticky .mobile-nav-icon {
+         margin-top: 10px; 
+    }
+    .sticky .mobile-nav-icon i {
+         color: #555;
+    }
+
+    section{
+        padding: 20px 0;
+    }
+    footer {
+        padding: 6px 6px 6px 6px;
+    }
+    .meal-4 li{
+        width: 50%;
+    }
+    .meal{
+        padding: 0 10px;
+    }
+    .box1 {
+        margin-top: 15px;
+        padding-left: 8%;
+        text-align: center;
+    }
+    .phone {
+        width:80%;
+    }
+    .box2 {
+        margin-top: 20px;
+    }
+    .btn-app1{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .btn-app2{
+        margin-left: 10px;
+        display: block;
+    }
+    .box{
+        width: 48%;
+    }
+    .myplan{
+        width: 100%;
+    }
+    .planrow{
+        width:70%
+    }
+    .sec-para{
+        margin-bottom: 0px;
+    }
+    .boxmain{
+        width: 100%;
+        padding: 1%;
+    }
+    .sline div{
+        height: 35px;
+        width: 35px;
+        text-align: center;
+    }
+    .sline{
+        margin-bottom: 25px;
+    }
+    .btn-app{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .c-para{
+    text-align: center;
+    }
+    .lisbon-fea{
+    margin-top: 15px;
+    }
+    .plan-box div{
+        text-align: center;
+    }
+    .myform{
+        width: 70%;
+    }
+    h2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .f-navi{
+        display: none;
+    }
+
+}
+
+/* MOBILE PHONES */
+@media only screen and (max-width:480px){
+    html{
+        font-size: 15.5px;
+    }
+    h2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .myform{
+        width: 85%;
+    }
+    .meal-4 li{
+        width: 100%;
+    }
+    .span-1-of-4 img{
+        width: 100%;
+        height: 270px;
+        float:none;
+     }
+    .lisbon-fea{
+        margin-top: 5px;
+    }
+    .btn-app{
+        margin-top: 40px;
+    }
+    .btn-app1{
+        display: inline-block;
+        height: 40px;
+        width: auto;
+        margin-bottom: 0px;
+    }
+    .btn-app2{
+        display: inline-block;
+        height: 40px;
+        width: auto;
+        margin-left: -10px;
+    }
+    .box{
+        width: 100%;
+    }
+    .phone {
+        width:50%;
+    }
+}
+
+/*
+NOTE-NO NEED TO WRITE CODE AGAIN WHICH IS SAME IN PREVIOUS WIDTH DEVICE 
+*/
